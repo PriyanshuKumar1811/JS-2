@@ -1,0 +1,23 @@
+Search --> LightUi (https://uilight.netlify.app/)
+Click  --> Get Started
+
+https://uilight.netlify.app/documentation/docs
+
+
+So whenever there is a button inside the form tag and when you click on it, it basically creates an action 
+of form submission, and it will always reload the page. So how do we stop this, so what we have to do is, 
+we have to basically capture that event. The event which basically is refreshing the page.
+
+event.preventDefault();
+
+You don't do the default action of submission. Whenever the button is clicked, we are telling the form element. 
+Hey form element, please do not do the default action of form submission. Do not do the default action of 
+reloading the page.
+
+
+Search --> google icons (https://fonts.google.com/icons)
+Click  --> Style
+Click --> Material Icons
+Search --> delete
+
+<span class="material-icons-outlined">delete</span>
